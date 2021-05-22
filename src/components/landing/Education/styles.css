@@ -1,4 +1,20 @@
 
+.education_container{
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding:2rem 0;
+    width: 90%;
+}
+  
+    @media (min-width: 601px) {
+        .education_container{ width: 90%;}
+     
+    }
+  
+    @media (min-width: 993px) {
+        .education_container{ width: 80%;}
+    }
 .column{
    padding-left : 0;
    margin:0;

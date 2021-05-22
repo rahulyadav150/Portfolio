@@ -6,7 +6,7 @@ export const Education = () => {
     const { theme } = useContext(ThemeContext);
 
     return <>
-        <div className='Container-imGdsn imvpyW styles__Wrapper-fvRwnH bnwvE' id='education'>
+        <div className='education_container' id='education'>
             <h2>Education</h2>
             <div className="row" style={{ margin: '0', padding: '.5rem' }}>
                 <div className="col-md-9 column">

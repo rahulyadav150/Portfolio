@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "providers/ThemeProvider";
+import { Container, Card } from "components/common";
 import './styles.css'
 
 export const Skills = () => {
@@ -7,7 +8,7 @@ export const Skills = () => {
 
     return <>
       
-        <div className='skills Container-imGdsn imvpyW styles__Wrapper-fvRwnH bnwvE' id = 'skills'>
+        <div className='skills_container' id = 'skills'>
             
             <h2>Skills</h2>
             <div className=' row justify-content-between ' style = {{margin:'0',padding:'.5rem'}}>
