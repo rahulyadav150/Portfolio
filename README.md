@@ -1,4 +1,16 @@
-# Profile FE
+# Portfolio site 
+ A beautiful, lightweight, responsive, customizable single-page personal portfolio website built using React and Gatsby.
+ 
+ ## Portfolio Sections
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education\
+✔️ Work Experience\
+✔️ Big Projects\
+✔️ Contact me\
+✔️ Github Profile
+
+To view a live example, **[click here](https://rahulyadavportfolio.netlify.app/)**.
 
 ## Testing
 
