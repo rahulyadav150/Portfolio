@@ -1,0 +1,41 @@
+
+.skills_container{
+ padding : 0 .5rem;
+}
+ .progress-wrap h3{
+    font-weight: 500;
+    color : rgba(0, 0, 0, 0.7);
+    margin : 0 0 15px 0;
+    font-size: 16px;
+}
+
+.progress{
+    height: 8px;
+    margin-bottom: 20px;
+    overflow: visible;
+    
+   
+}
+.progress-bar{
+    position: relative;
+    overflow: visible;
+    border-radius: 10px;
+    transition: width 3s ease;
+
+}
+.progress-bar .circle{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    position : absolute; 
+    top:-2px;
+    right : 0;
+    transform: translateY(-5%);
+}
+.progress-bar .label{
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    top:-15px;
+    right:-35px
+}
