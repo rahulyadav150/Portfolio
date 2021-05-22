@@ -40,7 +40,7 @@ export const Projects = () => {
                 </Tech>
               </Content>
               <div className='d-flex align-items-center ' style={{ marginBottom: '0', marginTop: '1rem' }}>
-                <a href={project.githubLink} className='mr-2 ' target="_blank" rel="noreferrer" style={{ width: '40px' }}>
+                <a href={project.githubLink} className='mr-2 ' target="_blank" rel="noreferrer" style={{ width: '40px',marginRight:'.5rem' }}>
                   <img src={theme === 'light' ? githubLogo : githubLogoWhite} alt="GitHub" style={{ width: '100%', margin: '0' }} />
                 </a>
                 <a href={project.url} >
